@@ -1,9 +1,8 @@
 ![Cabecalho](https://i.imgur.com/i37akf1.png)
 
-## 
+## É simples
 Este é um código simples para retornar pares ordenados de relações binárias.
 
-## É simples
   - Defina dois conjuntos X e Y
   - Defina a condição da relação
   - Obtenha os pares ordenados
