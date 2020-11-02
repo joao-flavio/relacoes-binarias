@@ -1,14 +1,19 @@
-let x = [1, 2, 3, 4, 5];
-let y = [2, 3, 4, 5, 6];
+// Definindo os conjuntos A e B
+let a = [-2, -1, 0, 1];
+let b = [-5, -2, 1, 4, 5, 6];
 
-function acharPares(valy){
-    x.forEach(valx => {
-        if(valx + 1 == valy ){
-            console.log(`{${valx}},{${valy}}`);
+//Função para achar pares
+function acharPares(valb){
+    //Percorrer todos os elementos de A
+    a.forEach(vala => {
+        //Verificar quais elementos de A se relacionam com B através da condição
+        if(3 * vala + 1 == valb){
+            console.log(`(${vala},${valb})`);
         };
     });
 }
 
-y.forEach(valy => {
-    acharPares(valy);
+//Percorrer todos os elementos de B, e usar como parâmetros da função acharPares
+b.forEach(valb => {
+    acharPares(valb);
 });
