@@ -1,4 +1,4 @@
-# Relações binárias
+![Cabecalho](https://i.imgur.com/i37akf1.png)
 
 Este é um código simples para retornar pares ordenados de relações binárias.
 
