@@ -19,10 +19,10 @@ $ node main.js
 
 ## Vamos começar
 Dados os conjuntos:
-- $$A = \left \{ -2, -1, 0, 1 \right \}$$
-- $$B = \left \{-5, -2, 1, 4, 5, 6 \right \}$$
+-  <img src="https://render.githubusercontent.com/render/math?math=A%20%3D%20%5Cleft%20%5C%7B%20-2%2C%20-1%2C%200%2C%201%20%5Cright%20%5C%7D">
+- <img src="https://render.githubusercontent.com/render/math?math=B%20%3D%20%5Cleft%20%5C%7B-5%2C%20-2%2C%201%2C%204%2C%205%2C%206%20%5Cright%20%5C%7D">
 Determinaremos a relação:
-$$R = \left \{ \left ( x, y \right ) \in A\times B |y = 3x + 1 \right \}$$
+<img src="https://render.githubusercontent.com/render/math?math=R%20%3D%20%5Cleft%20%5C%7B%20%5Cleft%20(%20x%2C%20y%20%5Cright%20)%20%5Cin%20A%5Ctimes%20B%20%7Cy%20%3D%203x%20%2B%201%20%5Cright%20%5C%7D">
 
 
 Agora, definiremos as variáveis A e B, que serão arrays, contendo os elementos dos conjuntos A e B:
@@ -32,7 +32,7 @@ let b = [-5, -2, 1, 4, 5, 6];
 ~~~
 
 Agora, basta definir a condição da relação:
-$$ y = 3x+1  $$
+<img src="https://render.githubusercontent.com/render/math?math=y%20%3D%203x%2B1">
 ~~~javascript
 3 * x + 1 === y
 ~~~
@@ -45,7 +45,7 @@ O script retornará o resultado:
 (1,4)
 ~~~
 Esse resultado é equivalente a:
-$$R= \left \{ \left ( -2, -5 \right ) \left ( -1, -2 \right ) \left ( 0, 1 \right ) \left ( 1, 4 \right ) \right \}$$
+<img src="https://render.githubusercontent.com/render/math?math=R%3D%20%5Cleft%20%5C%7B%20%5Cleft%20(%20-2%2C%20-5%20%5Cright%20)%20%5Cleft%20(%20-1%2C%20-2%20%5Cright%20)%20%5Cleft%20(%200%2C%201%20%5Cright%20)%20%5Cleft%20(%201%2C%204%20%5Cright%20)%20%5Cright%20%5C%7D">
 
 
 
